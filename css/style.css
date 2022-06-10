@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 50vh;
+    width: 100%;
+    object-fit: center;
+    transition: transform ease .5s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+
+}
+
+#team-members {
+    background: url(../img/endless-constellation.svg);
+    background-position: center;
+    background-size: contain;
+}
+
+
